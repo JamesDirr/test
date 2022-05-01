@@ -22,7 +22,7 @@ public class Main {
         input = scan.nextLine();
         //creates graph from file of list of edges
         if (input.equals("YES")) {
-            System.out.println("Enter the name of the file. Such as 'ExampleGraph.txt'");
+            System.out.println("Enter the name of the file. Such as 'src/Graph.txt'");
             input = scan.nextLine();
             System.out.println(input);
             File graph = new File(input);
